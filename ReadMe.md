@@ -21,3 +21,9 @@ The [MaKey MaKey](http://www.makeymakey.com) works on a different principle (res
 ###Arduino
 
 For the initial prototype of the BeetBox, I used an Arduino connected to an MPR-121 board ([with code and instructions from Jim Lindblom](http://bildr.org/2011/05/mpr121_arduino/)) and plugged it into a laptop running a simple Processing sketch to trigger sounds. Another option would be to skip the sensor board alltogether and try the Arduino [CapSense](http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense) library.
+
+#necessary
+sudo apt-get install python-setuptools 
+sudo easy_install -U distribute
+sudo apt-get install python-dev
+sudo easy_install(pip install) RPi.GPIO
